@@ -1,2 +1,1 @@
-# disinformation_detection
-NLP model to detect disinformation for the media case
+# fake_news_detection
