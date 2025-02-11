@@ -4,7 +4,7 @@ from fake_news_detection.ipynb import FakeNewsClassifier
 
 # Load Model
 model = FakeNewsClassifier()
-model.load_state_dict(torch.load("model_weights/distilbert-fake-news.pth.pth"))
+model.load_state_dict(torch.load("model/distilbert-fake-news.pth.pth"))
 model.eval()  # Set to evaluation mode
 
 # Load Tokenizer
