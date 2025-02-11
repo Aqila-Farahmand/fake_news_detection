@@ -1,5 +1,5 @@
 import torch
-from transformers import DistilBertTokenizer
+from transformers import AutoTokenizer
 from fake_news_detection.ipynb import FakeNewsClassifier
 
 # Load Model
@@ -8,7 +8,7 @@ model.load_state_dict(torch.load("model_weights/distilbert-fake-news.pth.pth"))
 model.eval()  # Set to evaluation mode
 
 # Load Tokenizer
-tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
+tokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')
 
 # Sample Text
 text = "Breaking News: Aliens Land on Earth!"
