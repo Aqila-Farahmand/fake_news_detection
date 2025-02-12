@@ -37,4 +37,4 @@ num_train_epochs = 3.0`
 # Sources
 Dataset used: https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset
 
-Base Model (Distilbert): https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english
+Base Model (Distilbert): https://huggingface.co/distilbert/distilbert-base-uncased
