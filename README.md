@@ -1,5 +1,5 @@
 # Fake News Detection Distilbert
-This model was trained on 44,878 news articles from CLÉMENT BISAILLON's dataset on Kaggle. The goal is to classify fake news from real news. 
+This model was trained on 35,900 news articles from CLÉMENT BISAILLON's dataset on Kaggle. The goal is to classify fake news from real news. 
 
 Dataset label structure:
 
