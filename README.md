@@ -21,17 +21,24 @@ Text: body text of news article
 Subject: subject of news article
 Date: publish date of news article
 
+Data columns used for fine-tuning:
+
+text: body text of news article
+Labels: (0s and 1s)
+
+
 ## About Model
 
 Model Description: 
-This model is a fine-tune checkpoint of distilbert-base-uncased-finetuned-sst-2-english, fine-tuned on ISOT Fake News Dataset.
+This model is a fine-tune checkpoint of distilbert-base-uncased, fine-tuned on ISOT Fake News Dataset.
 
 ## Fine-tuning hyper-parameters
 
 `learning_rate = 2e-5
-batch_size = 32
+batch_size = 16
 warmup = 600
 max_seq_length = 128
+weight_decay=0.01
 num_train_epochs = 3.0`
 
 # Sources
